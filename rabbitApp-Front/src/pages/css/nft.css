@@ -1,0 +1,266 @@
+.main-creclan {
+
+}
+
+.h1nft {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 58% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+margin: 5px;
+color: #FFFFFF;
+
+
+}
+
+.aboutour {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: -2%;
+line-height: 60px;
+/* or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7); /* затемнение фона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* повыше всех элементов */
+
+  }
+  
+  .popup-content {
+    background: rgba(193, 200, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 35px;
+    border: 3px solid white;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* легкая тень для объема */
+  }
+  
+  .close-popup {
+
+background: #FFF500;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 32.5615px 32.5615px rgba(0, 0, 0, 0.25);
+border-radius: 105.825px;
+
+width: 90%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+/* identical to box height, or 188% */
+letter-spacing: 2px;
+
+color: #1E1E1E;
+
+
+  }
+  
+
+  .popbuyon {
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 12px;
+gap: 12px;
+
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+
+/* identical to box height, or 64% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Primary/Base/White */
+color: #FFFFFF;
+
+margin: 2%;
+background: #2E65E3;
+border: none;
+box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+
+  }
+
+  .popup-content h2 {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+white-space: nowrap;
+/* or 460% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 5px;
+
+color: #000000;
+
+
+  }
+  .popup-content p {
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+/* or 134% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+  }
+
+.rabbits {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -5%;
+}
+
+.soc {
+    margin-bottom: 1% ;
+}
+
+.rabs {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.rabs img {
+  width: 75px;
+}
+
+.rabs span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.clickinfo {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+
+white-space: nowrap;
+/* or 167% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+}
+
+.rabname {
+
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 35px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+background: rgba(84, 120, 190, 0.7);
+border-radius: 58px;
+
+}
+
+.rab {
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.buynftnew {
+
+    background: rgba(255, 245, 0, 0.8);
+    border: 3.2px solid #FFFFFF;
+    box-shadow: inset 0px -2px 12.8px rgba(0, 0, 0, 0.25);
+    border-radius: 131.2px;
+    width: 90vw;
+    height: 50px;
+    margin: 5%;
+    
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 63px;
+    /* or 98% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 6px;
+    
+    color: #000000;
+    
+    
+    }
+
+.imgfot {
+    margin-bottom: -3vh;
+}

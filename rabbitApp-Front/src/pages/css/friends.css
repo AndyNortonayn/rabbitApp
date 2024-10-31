@@ -1,0 +1,202 @@
+.main-fri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/src/pages/img/fri/bg.png');
+    height: 100vh;
+    background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
+} 
+
+.tskrab {
+    margin-top: 0 !important;
+}
+
+.todo {
+    width: 60vw !important;
+    justify-content: center;
+}
+
+.tododiv {
+    border-bottom: 1px solid white;
+    padding: 5px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Frlisth1 {
+    width: 80vw;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    text-align: right;
+    align-items: start;
+
+}
+
+.Frlisth1 span>h1 {
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* identical to box height, or 143% */
+letter-spacing: 0.320769px;
+
+color: #FEF7FF;
+
+
+}
+
+
+.Frlisth1 span>p {
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+/* or 122% */
+text-align: right;
+letter-spacing: 0;
+margin-bottom: -10px;
+color: #FFFFFF;
+
+
+}
+
+.Frtask {
+width: 75vw;
+height: 35px;
+display: flex;
+align-items: center;
+text-align: right;
+justify-content: space-around;
+text-align: right;
+background: linear-gradient(0deg, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), rgba(255, 245, 0, 0.8);
+background-blend-mode: color-dodge, normal;
+border-radius: 76.9846px;
+
+}
+
+.refname {
+    display: flex;
+    overflow-x: auto;
+    width: 150%;
+}
+
+.Frtask span {
+    width: 40%;
+
+    white-space: nowrap;
+    text-align: right;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height, or 267% */
+display: flex;
+align-items: center;
+letter-spacing: -0.737769px;
+
+color: #000000;
+
+
+}
+
+
+
+.Frtask span>img {
+    margin-right: 5%;
+    margin-left: -10%;
+}
+
+.spannnn {
+    width: 35% !important;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.FriendList {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 5px;
+    height: 15%; /* Базовая высота */
+}
+
+@media (max-height: 1200px) {
+    .FriendList {
+        height: 15%; /* Высота при высоте экрана меньше 1200px */
+    }
+}
+
+@media (max-height: 800px) {
+    .FriendList {
+        height: 10%; /* Высота при высоте экрана меньше 800px */
+    }
+}
+
+@media (max-height: 500px) {
+    .FriendList {
+        height: 5%; /* Высота при высоте экрана меньше 500px */
+    }
+}
+
+
+
+.infofr {
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+margin-top: -5%;
+
+margin-bottom: 5%;
+/* or 115% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+justify-content: center;
+color: #FFFFFF;
+
+
+width: 90vw;
+background: rgba(84, 120, 190, 0.7);
+border-radius: 58px;
+
+}
+
+.invfr{
+
+    background: rgba(255, 245, 0, 0.8);
+    border: 3.2px solid #FFFFFF;
+    box-shadow: inset 0px -2px 12.8px rgba(0, 0, 0, 0.25);
+    border-radius: 131.2px;
+    width: 90vw;
+    height: 50px;
+    margin: 5%;
+    
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+    /* or 98% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 6px;
+    
+    color: #000000;
+    
+    
+    }

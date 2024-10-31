@@ -1,0 +1,221 @@
+.main-tsk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/src/pages/img/tasks/bg.png');
+    height: 100vh;
+    background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
+} 
+
+.h1tasks{
+    
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+/* or 110% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32px;
+
+color: #FFFFFF;
+}
+
+.rabclub img {
+    width: 170px;
+}
+
+.rabclub {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.rabclubcont {
+    display: flex;
+    flex-direction: row;
+}
+
+.rabclub img {
+    width: 170px;
+}
+
+.rabclubinfo {
+width: 45vw;
+background: rgba(193, 200, 255, 0.8);
+border: 3.20024px solid #FFFFFF;
+box-shadow: 0px 12.801px 12.801px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+padding: 5px;
+}
+
+.rabclubinfo {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1px;
+line-height: 20px;
+flex-direction: column;
+color: #000000;
+
+border: 1.20024px solid white;
+text-shadow: 0px 12.801px 12.801px rgba(0, 0, 0, 0.25);
+
+}
+
+.rabclubinfo button {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0px;
+white-space: nowrap;
+color: #000000;
+
+
+height: 35%;
+width: 90%;
+background: #FFF500;
+border: 2.20024px solid #FFFFFF;
+box-shadow: inset 0px -2px 12.801px rgba(0, 0, 0, 0.25);
+border-radius: 41.6031px;
+
+}
+
+.tasks {
+    background: rgba(84, 120, 190, 0.7);
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    border-radius: 22px;
+    height: 50px;
+    align-items: center;
+}
+
+.tasks button {
+    background: rgba(84, 120, 190, 1);
+    border: none;
+    border-radius: 22px;
+    height: 100%;
+    width: 40%;
+}
+
+.taskscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2vh;
+    overflow-y: auto;
+    height: 35vh; /* Базовая высота */
+}
+
+@media (max-height: 1200px) {
+    .taskscont {
+        height: 40vh; /* Высота при высоте экрана меньше 1200px */
+    }
+}
+
+@media (max-height: 800px) {
+    .taskscont {
+        height: 25vh; /* Высота при высоте экрана меньше 800px */
+    }
+}
+
+@media (max-height: 600px) {
+    .taskscont {
+        height: 15vh; /* Высота при высоте экрана меньше 500px */
+    }
+}
+
+
+.tasks span>p {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+width: 90%;
+margin-left: 5%;
+/* or 197% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+
+color: #FFFFFF;
+
+
+}
+
+
+.tasks button p {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin: 0;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #FFFFFF;
+
+}
+
+.daylycode {
+    margin-top: 1vh;
+    width: 90vw;
+    background: rgba(84, 120, 190, 0.7);
+    border: 1px solid #FFFFFF;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+    line-height: 30px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* identical to box height, or 54% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    
+}
+
+.tasksavailable {
+    margin-top: 1vh;
+    width: 90vw;
+    background: rgba(84, 120, 190, 0.7);
+    border: none;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    /* identical to box height, or 54% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    
+    color: #FFFFFF;
+}

@@ -1,0 +1,177 @@
+.maininfoclan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(40, 65, 115, 1);
+
+    height: 100vh;
+    background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
+} 
+
+.clanname {
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+/* or 116% */
+text-align: center;
+letter-spacing: 0.32px;
+
+color: #FFFFFF;
+
+
+}
+
+.walletp {
+    margin-top: -5%;
+}
+
+.t {
+    margin-bottom: -5%;
+}
+
+.info {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+/* or 100% */
+text-align: center;
+letter-spacing: 0.32px;
+
+color: #FFFFFF;
+
+
+}
+
+.inlebtn {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inlebtn button {
+    /* Social Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 12px;
+gap: 12px;
+width: 45%;
+background: #2E65E3;
+border: 2px solid #FFFFFF;
+box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Primary/Base/White */
+color: #FFFFFF;
+
+
+
+}
+
+.claninf {
+width: 80vw;
+display: flex;
+flex-direction: column;
+background: rgba(84, 120, 190, 0.7);
+border-radius: 15px;
+padding: 5px;
+
+}
+
+.claninf span {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.homeclan {
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 12px;
+    width: 50vw;
+    background: #2E65E3;
+    border: 2px solid #FFFFFF;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    
+    }
+
+.h1inf {
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+width: 80vw;
+/* or 58% */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+}
+
+.claninf span>p {
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+/* or 60px */
+letter-spacing: -0.023em;
+
+color: #FFFFFF;
+
+
+    margin:3px;
+}
+
+.walletp p{
+    margin-bottom: -5%;
+}
+
+.leadboardclanbtn {
+
+
+background: rgba(255, 245, 0, 0.8);
+border: 3.2px solid #FFFFFF;
+box-shadow: inset 0px -2px 12.8px rgba(0, 0, 0, 0.25);
+border-radius: 131.2px;
+width: 95vw;
+padding: 0;
+
+}

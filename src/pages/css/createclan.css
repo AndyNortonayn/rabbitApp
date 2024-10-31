@@ -1,0 +1,193 @@
+.main-creclan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(40, 65, 115, 1);
+
+    height: 100vh;
+    background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
+} 
+
+.create-clan {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.create-clan input {
+    width: 90vw;
+    height: 5vh;
+    background: rgba(84, 120, 190, 0.7);
+    border-radius: 58px;
+    color: black !important;
+    border: none;
+    font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 63px;
+/* or 98% */
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 6px;
+}
+
+.homeclan {
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 24px;
+gap: 12px;
+width: 50vw;
+background: #2E65E3;
+border: 2px solid #FFFFFF;
+box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+
+}
+
+.listing {
+    margin-top: 5%;
+    height: 40vh;
+    overflow-y: auto; /* Добавляем прокрутку по высоте */
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+}
+
+.finder {
+    margin-top: 5%;
+    width: 90vw;
+    height: 25px;
+    background-color: #3c4d75;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.lists {
+    overflow-y: auto;
+    height: 45vh;
+}
+
+.list-clan {
+    
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Используем колонку для вертикального отображения */
+}
+
+.clan-item {
+    display: flex;
+    width: 90vw; /* Скорректируем ширину, чтобы избежать горизонтального скролла */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgb(63, 92, 150);
+    border-radius: 14px;
+    margin-top: 5%;
+}
+
+.pp {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    /* or 98% */
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: start;
+    margin: 0 5%; /* Удалим отрицательные отступы */
+}
+
+.ppp {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.clan-item button {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    height: 60px;
+    width: 20%;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgb(217, 221, 6);
+    border-radius: 14px;
+    color: black;
+    margin: 0 2%; /* Удалим отрицательные отступы */
+}
+
+.chototo {
+    width: 60vw;
+    height: 20px;
+    margin-top: 10vh;
+
+background: rgba(84, 120, 190, 0.7);
+border-radius: 58px;
+
+}
+
+.creclanbtn {
+background: rgba(255, 245, 0, 0.8);
+border: 3.2px solid #FFFFFF;
+box-shadow: inset 0px -2px 12.8px rgba(0, 0, 0, 0.25);
+border-radius: 131.2px;
+width: 90vw;
+height: 50px;
+margin-top: 5%;
+margin-bottom: 5%;
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 63px;
+/* or 98% */
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 6px;
+
+color: #000000;
+
+
+}
+
